@@ -19,7 +19,9 @@ h2 {
 p {
     color: gray;
     padding: 1em;
-  
+}
+.pure-u-2-5 {
+    width: 0;
 }
 
 h3 {
@@ -30,16 +32,27 @@ h5 {
     color: cadetblue;
     position: absolute;
     z-index: 88;
+    font-size: 24px;
+    width: 20.9%;
+    height: 10%;
+
+}
+.portTitle {
+    margin: 138px 0 0 -319px;
+    text-align: center;
+
 }
 img {
     position: relative;
     z-index: -1;
+
+
 }
 img {
     float: left;
     padding: 0em 1em 0em 0em;
     height: 200px;
-    width: 165px;
+    width: 320px;
 }
 
 /* LAYOUT CSS */
@@ -210,4 +223,8 @@ img {
     .footer {
         text-align: center;
     }
+    #biopic {
+        height: 200px;
+        width: 165px;
+    }    
 }
